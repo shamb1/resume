@@ -1,0 +1,305 @@
+
+
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+  }
+  /* fontawesome */
+  [class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+  }
+
+header {
+    background-color: #293241;
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    color: #fcbf49;
+    transition: color 0.3s ease;
+}
+
+/* Introduction section */
+#about {
+    background-color: #f0efeb;
+    padding: 100px 0;
+}
+
+#about h1 {
+    color: #6b705c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6b705c;
+}
+
+/* Skills section */
+#skills {
+    background-color: #fcbf49;
+    padding: 100px 0;
+}
+
+#skills h1 {
+    color: #506751;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    color: #293241;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Portfolio section */
+#portfolio {
+    background-color: #f0efeb;
+    padding: 100px 0;
+}
+
+#portfolio h1 {
+    color: #293241;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Contact section */
+#contact {
+    background-color: #293241;
+    color: #f0efeb;
+    padding: 100px 0;
+}
+
+#contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+/* Add more customized styling as needed */
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
+/* Reset some default styling */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #000c22;
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Introduction section */
+#about {
+    background-color:rgb(148, 147, 147);
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #000c22;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Skills section */
+#skills {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+}
+
+#skills h2 {
+    font-size: 24px;
+    color: #000c22;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    background-color: #000c22;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+/* Portfolio section */
+#portfolio {
+    background-color: #F4F4F4;
+    padding: 100px 0;
+}
+
+#portfolio h2 {
+    font-size: 24px;
+    color:#000c22;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ 
+#contact {
+    background-color: #000c22;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
+.hobbies{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000c22;
+}
+.hobb{
+    padding: 2px;
+    height: 60px;
+}
+.about{
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    background-color: #000c22;
+}
+
+
+
+
+.get_social_content {
+    background-color: #02c8cb;
+	margin-top: 15px;
+}
+  .get_social_content h2{
+    margin-bottom: 8px;
+    text-align: center;
+  }
+	.social_icons {
+		margin-left: -8px;
+	}
+	.social_icons a {
+		font-size: 35px;
+		text-decoration: none;
+		color: #000507;
+		padding: 0;
+		padding: 0 5px;
+	}
+		.social_icons a span.invisible {
+			display:none;
+		}
+		.social_icons .facebook:hover{
+			background: #3b5998;
+			color: #dfe3ee;
+			border-top-right-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
+		.social_icons .twitter:hover{
+			background: #00B0ED;
+			color: #fff;
+			border-top-left-radius: 50px;
+			border-bottom-right-radius: 50px;
+		}
+		.social_icons .linkedin:hover{
+			background: #007bb6;
+			color: #fff;
+			border-top-right-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
+        
+
+.footer_name {
+	font-style: italic;
+	margin-top: 20px;
+}
+body{
+    background-color: rgb(91, 91, 91);
+}
+
+
+.hobb{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(44, 41, 41);
+}
+.sam{
+    background-color:#000c22 ;
+    text-align: center;
+    color: red;
+}
